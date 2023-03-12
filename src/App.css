@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+}
+
+#container {
+  background-color: #0a0a23;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  color: white;
+  padding: 0%, 5%, 5%, 5%;
+  font-size: 60px;
+}
+
+#botones {
+  display: flex;
+  justify-content: space-around;
+  padding: 5%;
+}
+
+button {
+  font-size: 50px;
+  cursor: pointer;
+}
+
+#subtact:hover {
+  background-color: red;
+}
+
+#reset:hover {
+  background-color: aquamarine;
+}
+
+#increment:hover {
+  background-color: green;
+}
+
+h2 {
+  color: rgb(0, 238, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+  font-size: 80px;
+}
